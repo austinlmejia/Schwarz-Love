@@ -101,7 +101,7 @@ export default (() => {
 					color="--purple"
 					font="normal 500 18px/1.5 &quot;Manrope&quot;, sans-serif"
 					margin="20px 0px 0px 0px"
-					href="/index1"
+					href="/matching"
 				>
 					Get Matched
 				</Button>
