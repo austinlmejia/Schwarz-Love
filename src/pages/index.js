@@ -104,7 +104,6 @@ export default (() => {
 					href="/matching"
 					target="_self"
 					type="link"
-					text-decoration="none"
 				>
 					Get Matched
 				</Button>
