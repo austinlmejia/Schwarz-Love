@@ -55,7 +55,13 @@ export default (() => {
 			</Box>
 		</Section>
 		<Section padding="28px 0 74px 0" md-padding="28px 0 28px 0" lg-padding="28px 0 28px 0">
-			<Override slot="SectionContent" flex-direction="row" md-flex-wrap="wrap" />
+			<Override
+				slot="SectionContent"
+				flex-direction="row"
+				md-flex-wrap="wrap"
+				display="flex"
+				flex="0 0 auto"
+			/>
 			<Box
 				empty-min-height="64px"
 				empty-border-width="1px"
@@ -242,12 +248,12 @@ export default (() => {
 					<Override slot="quarklycommunityKitCheckbox149" name="Warren" />
 					<Override slot="quarklycommunityKitCheckbox150" name="Courtney" />
 				</Components.SchwarzLoveFormContent>
+				<Box display="flex" flex-direction="column" align-items="flex-start" grid-column="1 / span 2">
+					<Button margin="10px 0px 0px 0px">
+						Send
+					</Button>
+				</Box>
 			</Components.QuarklycommunityKitForm>
-			<Box display="flex" flex-direction="column" align-items="flex-start" grid-column="1 / span 2">
-				<Button>
-					Send
-				</Button>
-			</Box>
 		</Section>
 		<Section background="--color-purple">
 			<Override slot="SectionContent" color="--light" font="--headline2" text-align="center" />
