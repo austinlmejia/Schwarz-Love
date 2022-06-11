@@ -867,64 +867,6 @@ export default (() => {
 				</Box>
 			</Box>
 		</Section>
-		<Section background="--color-light" color="--dark" padding="64px 0 64px 0">
-			<Box margin="-16px -16px -16px -16px" display="flex" flex-wrap="wrap">
-				<Box padding="16px 16px 16px 16px" width="50%" lg-width="100%">
-					<Box>
-						<Text
-							font="--base"
-							color="--grey"
-							letter-spacing="1px"
-							text-transform="uppercase"
-							margin="0"
-						>
-							Contact
-						</Text>
-						<Text font="--headline2" max-width="500px" margin="10px 0 0 0">
-							Email us, we would love to hear form you
-						</Text>
-					</Box>
-				</Box>
-				<Box width="50%" padding="8px 8px 8px 8px" lg-width="100%">
-					<Box>
-						<Formspree endpoint="xeqpgrlv">
-							<Box
-								gap="16px"
-								display="grid"
-								flex-direction="row"
-								flex-wrap="wrap"
-								grid-template-columns="repeat(2, 1fr)"
-								grid-gap="16px"
-							>
-								<Box sm-width="100%" display="flex" flex-direction="column">
-									<Text font="--base" margin="0 0 4px 0">
-										Name
-									</Text>
-									<Input width="100%" name="name" type="text" />
-								</Box>
-								<Box sm-width="100%" display="flex" flex-direction="column">
-									<Text font="--base" margin="0 0 4px 0">
-										Email
-									</Text>
-									<Input width="100%" type="email" name="email" />
-								</Box>
-								<Box display="flex" flex-direction="column" grid-column="1 / span 2">
-									<Text font="--base" margin="0 0 4px 0">
-										Message
-									</Text>
-									<Input as="textarea" rows="4" width="100%" name="message" />
-								</Box>
-								<Box display="flex" flex-direction="column" align-items="flex-start" grid-column="1 / span 2">
-									<Button>
-										Send
-									</Button>
-								</Box>
-							</Box>
-						</Formspree>
-					</Box>
-				</Box>
-			</Box>
-		</Section>
 		<Section background="--color-purple">
 			<Override slot="SectionContent" color="--light" font="--headline2" text-align="center" />
 			<Text margin="20px 0px 0px 0px" sm-font="700 40px/60px Manrope, sans-serif">
