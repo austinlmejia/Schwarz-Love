@@ -78,15 +78,19 @@ export default (() => {
 				</Text>
 			</Box>
 		</Section>
-		<Section>
-			<Components.QuarklycommunityKitNetlifyForm width="50%" formName="LoveForm" successMessage="You're matches are on their way, sit tight!">
-				<Components.SchwarzLoveFormContent />
-				<Box display="flex" flex-direction="column" align-items="flex-start" grid-column="1 / span 2">
-					<Button>
-						Send
-					</Button>
-				</Box>
-			</Components.QuarklycommunityKitNetlifyForm>
+		<Section align-items="center">
+			<Override slot="SectionContent" align-items="center" />
+			<Components.QuarklycommunityKitForm width="50%" margin="0px 300px 0px 0px" sm-width="100%" sm-margin="0px 0 0px 0px">
+				<Components.SchwarzLoveFormContent>
+					<Override slot="input" placeholder="John Doe" />
+					<Override slot="input1" placeholder="john.doe@sc.tsinghua.edu.cn" />
+				</Components.SchwarzLoveFormContent>
+			</Components.QuarklycommunityKitForm>
+			<Box display="flex" flex-direction="column" align-items="flex-start" grid-column="1 / span 2">
+				<Button>
+					Send
+				</Button>
+			</Box>
 		</Section>
 		<Section background="--color-purple">
 			<Override slot="SectionContent" color="--light" font="--headline2" text-align="center" />
