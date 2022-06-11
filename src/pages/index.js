@@ -104,6 +104,7 @@ export default (() => {
 					href="/matching"
 					target="_self"
 					type="link"
+					text-decoration="none"
 				>
 					Get Matched
 				</Button>
@@ -173,7 +174,7 @@ export default (() => {
 		<Section padding="80px 0 80px 0" sm-padding="60px 0 60px 0" background="--color-purple">
 			<Override slot="SectionContent" color="--light" />
 			<Text margin="0px 0px 50px 0px" font="--headline1" sm-font="normal 800 48px/1.2 &quot;Manrope&quot;, sans-serif">
-				How is Works
+				How it Works
 			</Text>
 			<Box display="grid" grid-template-columns="repeat(3, 1fr)" grid-gap="32px 4%" md-grid-template-columns="1fr">
 				<Box align-items="center" justify-content="flex-start" flex-direction="column" display="flex">
