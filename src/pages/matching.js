@@ -37,7 +37,7 @@ export default (() => {
 				A Schwarzman Social Club Project
 			</Text>
 		</Section>
-		<Section padding="60px 0 60px 0" quarkly-title="HeroBlock" background="--color-purple" sm-padding="60px 0 40px 0">
+		<Section padding="60px 0 60px 0" quarkly-title="HeroBlock" background="--color-purple" sm-padding="30px 0 20px 0">
 			<Override slot="SectionContent" display="inline" text-align="center" />
 			<Box min-width="100px" min-height="100px" width="75%" sm-width="100%">
 				<Text
@@ -48,7 +48,7 @@ export default (() => {
 					font="normal 800 180px/1.2 --fontFamily-googleManrope"
 					align-self="flex-start"
 					text-align="left"
-					sm-font="normal 800 110px/1 &quot;Manrope&quot;, sans-serif"
+					sm-font="normal 800 65px/1 &quot;Manrope&quot;, sans-serif"
 				>
 					Matching
 				</Text>
