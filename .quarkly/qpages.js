@@ -1,6 +1,6 @@
 module.exports = [
 	"/index/",
-	"/index1/",
+	"/matching/",
 	"/404/",
 	"/",
 	"/404.html"
