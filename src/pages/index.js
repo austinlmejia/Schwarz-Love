@@ -101,7 +101,7 @@ export default (() => {
 					color="--purple"
 					font="normal 500 18px/1.5 &quot;Manrope&quot;, sans-serif"
 					margin="20px 0px 0px 0px"
-					href="/matching"
+					href="https://schwarzmansocial.club/matching/"
 					target="_self"
 				>
 					Get Matched
@@ -338,7 +338,8 @@ export default (() => {
 					color="--purple"
 					font="normal 500 18px/1.5 &quot;Manrope&quot;, sans-serif"
 					margin="20px 0px 0px 0px"
-					href="/index1"
+					href="https://schwarzmansocial.club/matching/"
+					target="_self"
 				>
 					Get Matched
 				</Button>
