@@ -31,7 +31,7 @@ export default {
 	"site": {
 		"styles": {},
 		"seo": {
-			"title": "Matching",
+			"title": "SchwarzLove",
 			"description": "Anyone can build a vacation, we build experiences",
 			"background_win10": "#ff007a",
 			"favicon_32px": "https://uploads.quarkly.io/62a1458bf45b7e002476cccd/images/pixel%20heart.png?v=2022-06-09T16:19:53.665Z",

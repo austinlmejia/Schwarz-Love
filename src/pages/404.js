@@ -10,7 +10,7 @@ export default (() => {
 		<GlobalQuarklyPageStyles pageUrl={"404"} />
 		<Helmet>
 			<title>
-				Matching
+				SchwarzLove
 			</title>
 			<meta name={"description"} content={"Anyone can build a vacation, we build experiences"} />
 			<meta property={"og:title"} content={"You choose are great vacation"} />
