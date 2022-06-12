@@ -79,6 +79,7 @@ export default (() => {
 					sm-font="normal 600 20px/1 &quot;Manrope&quot;, sans-serif"
 					md-margin="0 0px 0px 0px"
 					lg-margin="0 0px 0px 0px"
+					sm-text-align="left"
 				>
 					<Span
 						overflow-wrap="normal"
@@ -173,7 +174,7 @@ export default (() => {
 		</Section>
 		<Section padding="80px 0 80px 0" sm-padding="60px 0 60px 0" background="--color-purple">
 			<Override slot="SectionContent" color="--light" />
-			<Text margin="0px 0px 50px 0px" font="--headline1" sm-font="normal 800 48px/1.2 &quot;Manrope&quot;, sans-serif">
+			<Text margin="0px 0px 50px 0px" font="--headline1" sm-font="normal 800 48px/1.2 &quot;Manrope&quot;, sans-serif" sm-text-align="center">
 				How it Works
 			</Text>
 			<Box display="grid" grid-template-columns="repeat(3, 1fr)" grid-gap="32px 4%" md-grid-template-columns="1fr">

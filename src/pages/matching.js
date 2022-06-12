@@ -59,7 +59,7 @@ export default (() => {
 				slot="SectionContent"
 				flex-direction="row"
 				md-flex-wrap="wrap"
-				display="flex"
+				display="block"
 				flex="0 0 auto"
 			/>
 			<Box
@@ -67,8 +67,7 @@ export default (() => {
 				empty-border-width="1px"
 				empty-border-style="solid"
 				empty-border-color="LightGray"
-				width="60%"
-				display="flex"
+				display="block"
 				md-width="100%"
 				empty-min-width="64px"
 				lg-width="60%"
@@ -277,8 +276,9 @@ export default (() => {
 				font="--headline2"
 				text-align="center"
 				margin="0px 64px 20px 64px"
+				sm-margin="0px 20px 20px 20px"
 			/>
-			<Text margin="20px 0px 0px 0px" sm-font="700 40px/60px Manrope, sans-serif">
+			<Text margin="20px 0px 0px 0px" sm-font="700 40px/60px Manrope, sans-serif" sm-width="100% border-box">
 				Love is just a click away.{" "}
 			</Text>
 		</Section>
