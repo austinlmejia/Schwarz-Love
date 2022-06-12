@@ -164,7 +164,7 @@ export default (() => {
 					<Override slot="quarklycommunityKitCheckbox57" name="Charles" value="Y" />
 					<Override slot="quarklycommunityKitCheckbox58" name="Nikhil" value="Y" />
 					<Override slot="quarklycommunityKitCheckboxOverride59">
-						Zumrad "Zuma" Jalilova
+						Zumrud "Zuma" Jalilova
 					</Override>
 					<Override slot="quarklycommunityKitCheckbox59" name="Zuma" value="Y" />
 					<Override slot="quarklycommunityKitCheckbox60" name="Lorena" value="Y" />
