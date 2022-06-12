@@ -86,11 +86,26 @@ export default (() => {
 		</Section>
 		<Section align-items="center">
 			<Override slot="SectionContent" align-items="center" />
-			<Components.QuarklycommunityKitForm width="50%" margin="0px 300px 0px 0px" sm-width="100%" sm-margin="0px 0 0px 0px">
+			<Components.QuarklycommunityKitForm
+				width="50%"
+				margin="0px 300px 0px 0px"
+				sm-width="100%"
+				sm-margin="0px 0 0px 0px"
+				autoComplete="on"
+				method="post"
+				name="Schwarz-Love"
+				action="https://formspree.io/f/xbjwbawz"
+			>
 				<Components.SchwarzLoveFormContent>
-					<Override slot="input" placeholder="John Doe" required />
-					<Override slot="input1" placeholder="john.doe@sc.tsinghua.edu.cn" required />
-					<Override slot="quarklycommunityKitCheckbox" name="Zahrah" />
+					<Override slot="input" placeholder="John Doe" required name="name" />
+					<Override
+						slot="input1"
+						placeholder="john.doe@sc.tsinghua.edu.cn"
+						required
+						name="email"
+						type="email"
+					/>
+					<Override slot="quarklycommunityKitCheckbox" name="Zahrah" defaultChecked={false} />
 					<Override slot="quarklycommunityKitCheckbox1" name="Vidette" />
 					<Override slot="quarklycommunityKitCheckbox2" name="Maria" />
 					<Override slot="quarklycommunityKitCheckbox3" name="Andrey" />
@@ -255,22 +270,17 @@ export default (() => {
 				</Box>
 			</Components.QuarklycommunityKitForm>
 		</Section>
-		<Section background="--color-purple">
-			<Override slot="SectionContent" color="--light" font="--headline2" text-align="center" />
+		<Section background="--color-purple" margin="0 0 20px 0">
+			<Override
+				slot="SectionContent"
+				color="--light"
+				font="--headline2"
+				text-align="center"
+				margin="0px 64px 20px 64px"
+			/>
 			<Text margin="20px 0px 0px 0px" sm-font="700 40px/60px Manrope, sans-serif">
 				Love is just a click away.{" "}
 			</Text>
-			<Box min-width="100px" min-height="100px">
-				<Button
-					text-align="center"
-					background="--color-light"
-					color="--purple"
-					font="normal 500 18px/1.5 &quot;Manrope&quot;, sans-serif"
-					margin="20px 0px 0px 0px"
-				>
-					Get Matched
-				</Button>
-			</Box>
 		</Section>
 		<RawHtml>
 			<style place={"endOfHead"} rawKey={"614ce40335c5c8001f7746de"}>
