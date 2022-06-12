@@ -216,7 +216,7 @@ export default (() => {
 						text-align="center"
 						flex="1 0 auto"
 					>
-						The site will then automatically and discretely match match you with every person you marked that also marked you. This process is anonymized and cannot be seen from the backend.
+						The site will then automatically and discretely match you with every person you marked that also marked you. This process is anonymized and cannot be seen from the backend.
 					</Text>
 				</Box>
 				<Box align-items="center" justify-content="flex-start" flex-direction="column" display="flex">
@@ -237,7 +237,7 @@ export default (() => {
 						text-align="center"
 						flex="1 0 auto"
 					>
-						An email will be automatically sent out with all of your matches. What you do with that information is yours alone.
+						An email will be automatically sent out with all of your matches. Matches ONLY happen if you and the other person both select each other. What you do with that information is yours alone.
 					</Text>
 				</Box>
 			</Box>
@@ -298,7 +298,7 @@ export default (() => {
 									What happens when I get a match?
 								</Text>
 								<Text as="p" font="--base" margin="12px 0" color="--greyD2">
-									That's for you to decide. Will you confess your undying admiration? Awkwardly pretend like it never happened? Who knows, but isn't it just too tempting just to know?
+									That's for you to decide. Will you confess your undying admiration? Awkwardly pretend like it never happened? Who knows, but isn't it just too tempting to know?
 								</Text>
 							</Box>
 						</Box>
