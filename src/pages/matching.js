@@ -269,7 +269,7 @@ export default (() => {
 				</Box>
 			</Components.QuarklycommunityKitForm>
 		</Section>
-		<Section background="--color-purple" margin="0 0 20px 0">
+		<Section background="--color-purple" margin="0 0 0 0">
 			<Override
 				slot="SectionContent"
 				color="--light"
