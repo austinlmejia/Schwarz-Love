@@ -32,13 +32,13 @@ export default {
 		"styles": {},
 		"seo": {
 			"title": "SchwarzLove",
-			"description": "Anyone can build a vacation, we build experiences",
+			"description": "Love is just a click away.",
 			"background_win10": "#ff007a",
 			"favicon_32px": "https://uploads.quarkly.io/62a1458bf45b7e002476cccd/images/pixel%20heart.png?v=2022-06-09T16:19:53.665Z",
 			"favicon_win10_270px": "https://uploads.quarkly.io/62a1458bf45b7e002476cccd/images/pixel%20heart.png?v=2022-06-09T16:19:53.665Z",
-			"og:description": "Anyone can build a vacation, we build experiences",
-			"og:title": "You choose are great vacation",
-			"og:image": "https://uploads.quarkly.io/614ce40335c5c8001f7746e0/images/OGimage.png?v=2021-09-23T20:32:10.363Z",
+			"og:description": "Love is just a click away.",
+			"og:title": "SchwarzLove",
+			"og:image": "https://uploads.quarkly.io/62a1458bf45b7e002476cccd/images/pixel%20heart.png?v=2022-06-09T16:19:53.665Z",
 			"favicon_apple_152px": "https://uploads.quarkly.io/62a1458bf45b7e002476cccd/images/pixel%20heart.png?v=2022-06-09T16:19:53.665Z"
 		}
 	}

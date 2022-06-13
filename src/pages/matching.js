@@ -12,10 +12,10 @@ export default (() => {
 			<title>
 				SchwarzLove
 			</title>
-			<meta name={"description"} content={"Anyone can build a vacation, we build experiences"} />
-			<meta property={"og:title"} content={"You choose are great vacation"} />
-			<meta property={"og:description"} content={"Anyone can build a vacation, we build experiences"} />
-			<meta property={"og:image"} content={"https://uploads.quarkly.io/614ce40335c5c8001f7746e0/images/OGimage.png?v=2021-09-23T20:32:10.363Z"} />
+			<meta name={"description"} content={"Love is just a click away."} />
+			<meta property={"og:title"} content={"SchwarzLove"} />
+			<meta property={"og:description"} content={"Love is just a click away."} />
+			<meta property={"og:image"} content={"https://uploads.quarkly.io/62a1458bf45b7e002476cccd/images/pixel%20heart.png?v=2022-06-09T16:19:53.665Z"} />
 			<link rel={"shortcut icon"} href={"https://uploads.quarkly.io/62a1458bf45b7e002476cccd/images/pixel%20heart.png?v=2022-06-09T16:19:53.665Z"} type={"image/x-icon"} />
 			<link rel={"apple-touch-icon"} href={"https://uploads.quarkly.io/62a1458bf45b7e002476cccd/images/pixel%20heart.png?v=2022-06-09T16:19:53.665Z"} />
 			<link rel={"apple-touch-icon"} sizes={"76x76"} href={"https://uploads.quarkly.io/62a1458bf45b7e002476cccd/images/pixel%20heart.png?v=2022-06-09T16:19:53.665Z"} />
