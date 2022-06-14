@@ -77,14 +77,17 @@ export default (() => {
 					font="--headline2"
 					color="--dark"
 					lg-font="normal 700 28px/1.2 &quot;Manrope&quot;, sans-serif"
-					sm-font="normal 700 22px/1.2 &quot;Manrope&quot;, sans-serif"
+					sm-font="--headline2"
 				>
-					This is the easy part: just click and select every person you  like.
+					That's all, folks!
+				</Text>
+				<Text margin="0px 0px 0px 0px" font="--headline4">
+					SchwarzLove 2022 is officially over. Settle back, relax, and wait for those sweet, sweet matches to roll in.
 				</Text>
 			</Box>
 		</Section>
 		<Section align-items="center">
-			<Override slot="SectionContent" align-items="center" />
+			<Override slot="SectionContent" align-items="center" display="none" />
 			<Components.QuarklycommunityKitForm
 				width="50%"
 				margin="0px 300px 0px 0px"
